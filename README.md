@@ -55,9 +55,9 @@ python -m venv .venv
 
 ## 发布到 GitHub Pages
 
-- GitHub 仓库：https://github.com/htygithub/.github.io
-- 网站地址：https://htygithub.github.io/.github.io/
-- Pages 设置：https://github.com/htygithub/.github.io/settings/pages
+- GitHub 仓库：https://github.com/htygithub/htygithub.github.io
+- 网站地址：https://htygithub.github.io/
+- Pages 设置：https://github.com/htygithub/htygithub.github.io/settings/pages
 
 每次将网站内容推送到 `main` 分支，GitHub Actions 都会自动安装工具、生成网页，并将网页发布到 `gh-pages` 分支。源文件保存在 `main`，生成的网页保存在 `gh-pages`。
 
