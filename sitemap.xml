@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://htygithub.github.io/.github.io/</loc>
+         <loc>https://htygithub.github.io/</loc>
          <lastmod>2026-10-23</lastmod>
     </url>
     <url>
-         <loc>https://htygithub.github.io/.github.io/about/</loc>
+         <loc>https://htygithub.github.io/about/</loc>
          <lastmod>2026-10-23</lastmod>
     </url>
     <url>
-         <loc>https://htygithub.github.io/.github.io/course/</loc>
+         <loc>https://htygithub.github.io/course/</loc>
          <lastmod>2026-10-23</lastmod>
     </url>
     <url>
-         <loc>https://htygithub.github.io/.github.io/course/example/</loc>
+         <loc>https://htygithub.github.io/course/example/</loc>
          <lastmod>2026-10-23</lastmod>
     </url>
     <url>
-         <loc>https://htygithub.github.io/.github.io/friends/</loc>
+         <loc>https://htygithub.github.io/friends/</loc>
          <lastmod>2026-10-23</lastmod>
     </url>
 </urlset>
