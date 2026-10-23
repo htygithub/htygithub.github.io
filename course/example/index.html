@@ -203,44 +203,6 @@
   
 
       
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../friends/" class="md-tabs__link">
-        
-  
-  
-    
-  
-  友链
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../about/" class="md-tabs__link">
-        
-  
-  
-    
-  
-  关于
-
-      </a>
-    </li>
-  
-
-      
     </ul>
   </div>
 </nav>
@@ -322,60 +284,6 @@
     
   
     课程
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../friends/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    友链
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../about/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    关于
   
 
     
@@ -584,12 +492,17 @@
 <ol>
 <li>在 <code>docs/course/</code> 文件夹里新建一个文件，例如 <code>my-first-note.md</code>。</li>
 <li>参考这篇文章的格式，填写标题和正文。</li>
-<li>打开 <code>docs/course/index.md</code>，在文章列表中添加一行：</li>
+<li>课程列表会自动添加同一文件夹里的文章，请保留课程首页中的这行标记：</li>
 </ol>
-<div class="highlight"><pre><span></span><code><span class="k">-</span><span class="w"> </span>[<span class="nt">我的第一篇笔记</span>](<span class="na">my-first-note.md</span>) — 一句话简介。
+<div class="highlight"><pre><span></span><code><span class="k">-</span><span class="w"> </span>[<span class="nt">示例课程：如何写一篇学习笔记</span>](<span class="na">example.md</span>)
 </code></pre></div>
 <ol>
-<li>保存文件，本地预览会自动更新。</li>
+<li>
+<p>保存文件，本地预览会自动更新。</p>
+</li>
+<li>
+<p>新建文件后重启本地预览。若不想公开文章，在文件最开头的头部设置中加入 <code>visibility: private</code>。完整规则请查看项目根目录的 <code>PRIVACY_GUIDE.md</code>。</p>
+</li>
 </ol>
 
 
