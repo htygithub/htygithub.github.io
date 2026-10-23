@@ -1,0 +1,31 @@
+site_name: Web of CHENNYO
+site_description: CHENNYO 的个人网站，记录课程、学习与生活。
+
+theme:
+  name: material
+  language: zh
+  font: false
+  palette:
+    scheme: default
+    primary: white
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+nav:
+  - 主页: index.md
+  - 课程: course/index.md
+  - 友链: friends/index.md
+  - 关于: about/index.md
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true

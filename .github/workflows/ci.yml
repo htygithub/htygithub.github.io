@@ -1,0 +1,38 @@
+name: Publish website
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out website source
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install MkDocs and Material theme
+        run: python -m pip install -r requirements.txt
+
+      - name: Build website
+        run: python -m mkdocs build --strict
+
+      - name: Publish generated website to gh-pages
+        run: ghp-import -n -p -f -b gh-pages site
