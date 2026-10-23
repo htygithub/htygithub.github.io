@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://htygithub.github.io/</loc>
+         <loc>https://cheonyo.cn/</loc>
          <lastmod>2026-10-23</lastmod>
     </url>
     <url>
-         <loc>https://htygithub.github.io/course/</loc>
+         <loc>https://cheonyo.cn/course/</loc>
          <lastmod>2026-10-23</lastmod>
     </url>
     <url>
-         <loc>https://htygithub.github.io/course/example/</loc>
+         <loc>https://cheonyo.cn/course/example/</loc>
          <lastmod>2026-10-23</lastmod>
     </url>
 </urlset>
